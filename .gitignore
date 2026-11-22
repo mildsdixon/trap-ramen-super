@@ -4,3 +4,4 @@ dist/
 *.log
 .openai/
 design/*.png
+exact-version/
