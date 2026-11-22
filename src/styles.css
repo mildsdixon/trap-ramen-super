@@ -111,7 +111,7 @@ img { display: block; max-width: 100%; }
   font-family: var(--display);
   font-size: clamp(6.6rem, 11.3vw, 11.7rem);
   line-height: .72;
-  letter-spacing: -.06em;
+  letter-spacing: .012em;
   text-transform: uppercase;
   font-weight: 900;
   transform: skew(-4deg);
@@ -121,6 +121,7 @@ img { display: block; max-width: 100%; }
   color: var(--gold);
   font-style: italic;
   font-size: 1.08em;
+  letter-spacing: .015em;
   text-shadow: 7px 7px 0 var(--red-dark);
 }
 .hero-copy > p { max-width: 510px; margin: 34px 0 28px; font-size: clamp(1rem, 1.6vw, 1.35rem); line-height: 1.6; color: #e3ddd3; }
@@ -494,9 +495,9 @@ footer small { grid-column: 1 / -1; color: #777; }
     width: 58%;
     font-size: clamp(4.9rem, 21vw, 7.1rem);
     line-height: .68;
-    letter-spacing: -.055em;
+    letter-spacing: .016em;
   }
-  .hero h1 > em { font-size: .82em; text-shadow: 4px 4px 0 rgba(92,0,4,.9); }
+  .hero h1 > em { font-size: .82em; letter-spacing: .02em; text-shadow: 4px 4px 0 rgba(92,0,4,.9); }
   .hero-copy > p {
     position: absolute;
     z-index: 5;
